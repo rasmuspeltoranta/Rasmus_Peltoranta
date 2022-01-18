@@ -1,0 +1,20 @@
+body{
+    background-color: blanchedalmond;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: brown;
+    font-size: larger;
+    margin-bottom: 20px;
+    border: black;
+}
+img{
+
+}
+h1{
+    color: blue;
+}
+h2{
+    color: red;
+}
