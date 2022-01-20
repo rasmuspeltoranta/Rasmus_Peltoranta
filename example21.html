@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        align-content: space-between;
+      }
+      .flexContainer > div, div {
+        background-color: bisque;
+        margin: 10px;
+        width: fit-content;
+
+      }
+      header{
+          background-color: blue;
+          min-height: 70px;
+      }
+      footer{
+        background-color: blue;
+          min-height: 70px;
+      }
+     .leftbar .rightbar {
+         background-color: black;
+         color: blanchedalmond;
+         min-height: 300px;
+         width: 20%;
+     }
+     .main {
+         background-color: brown;
+         color: cadetblue;
+         min-height: 300px;
+         width: 60%;
+
+     }
+    </style>
+</head>
+<body>
+    <header>this is header </header>
+    <div class="flexContainer">
+
+    <div>div </div>
+    <div>div2</div>
+    <div>div3</div>
+    <div>div3</div>
+    
+    </div>
+    <footer>
+        this is footer 
+    </footer>
+    
+</body>
+</html>
